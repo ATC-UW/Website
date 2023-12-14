@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
     <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <script src="Google Sheet.js"></script>
     <title>Algorithmic Trading Club</title>
     <style>
         .club-text {
@@ -49,7 +50,7 @@
             <h4 style="text-align: center; font-size: 90%;">Explore the dynamic intersection of finance and technology with UW's Algorithmic Trading Club</h4>
         </div>
         <div style="padding-left: 30%; padding-right: 30%; margin-top: 10%;">
-            <form>
+            <form method="post" action="https://script.google.com/macros/s/AKfycbxgRcdi_3LSnc4M6K4UfrMt2HXPPCIGwA5-2eTEUMjsB6NoFMNOtRZ3WyQPhzD5LBTQFw/exec" name="contact-form">
                 <input
                   type="text"
                   name="firstname"
@@ -58,7 +59,7 @@
                   required
                 />
                 <input
-                  type="email"
+                  type="email"  
                   name="email"
                   placeholder="Email address"
                   aria-label="Email address"
